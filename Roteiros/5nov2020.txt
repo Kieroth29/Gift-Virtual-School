@@ -1,0 +1,13 @@
+salvar arquivo em pasta
+
+criar variavel file
+
+abrir arquivo
+
+escrever
+
+ler
+
+editar
+
+fechar arquivo

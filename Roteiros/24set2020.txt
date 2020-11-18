@@ -1,0 +1,16 @@
+O mercado do seu bairro precisa de um novo sistema para o caixa. 
+Elabore um código que insira os preços dos produtos até que o usuário escolha uma opção para 
+não continuar essa ação, some estes preços e exiba o total.
+
++= -= *= /= ++ --
+
+for(x = 1;x = 5;x++)
+
+while(x != 0)
+------------------------------------------------------
+Parte 2
+
+operadores v2
+array
+while
+for
