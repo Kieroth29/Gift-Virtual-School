@@ -1,8 +1,0 @@
-- receita de bolo
-
-- reforçar int
-	exercicios:
-		1+1
-		1-1
-		1*1
-		1/1
