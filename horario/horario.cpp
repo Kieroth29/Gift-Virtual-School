@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include <string.h>
 
 typedef struct Funcionarios{
-	char nome[20];
+	char nome[50];
 	int faltas;	
 }Funcionarios;
 
@@ -21,17 +22,24 @@ void criar(){
 void conferir() {
       
     FILE *pa;
-	char c,linha[50];
+	char linha[50],cont = 0;
 	
-
-    printf("Leitura do arquivo\n\n");
+    printf("Leitura do arquivo\n");
 
 	pa = fopen("arquivo.txt", "r");
         
-	while ((c = getc(pa)) != EOF/*End of file*/) {
+	for(cont = 0;cont < 5;cont++){
 		fgets(linha,50,pa);
-	}
-
+		printf("%s presente. \n",linha);
+		
+		if(strncmp(linha,fn[cont].nome,50) == 0){
+			fn[cont].faltas += 1;
+			printf("faltas %s = %d\n",linha,fn[cont].faltas);
+		}
+		
+	}	
+	
+	
 	fclose(pa);
 	
 	printf("\n");
@@ -40,17 +48,19 @@ void conferir() {
 void cadastrar(){
 	
 	FILE *pa;
-	char input[50];
+
 	int cont = 1;
 	
+	getchar();
+	
 	while(cont < 6){
-		getchar();
-		printf("Insira o nome do funcionário: \n");
-		fgets(fn.nome,20,stdin);
+		
+		printf("Insira o nome do %d° funcionário: \n",cont);
+		fgets(fn[cont].nome,20,stdin);
 		
 		pa = fopen("arquivo.txt", "a");
 		
-		fprintf(pa,fn[cont]);
+		fprintf(pa,fn[cont].nome);
 		fclose(pa);
 		
 		cont++;
