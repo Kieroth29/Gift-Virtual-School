@@ -119,3 +119,12 @@ button{
 	top: 185px;
 	left: 300px;
 }
+#pc-bg{
+	background: url("imgs/pc-bg.jpg");
+	background-color: cyan;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 1000px;
+}
