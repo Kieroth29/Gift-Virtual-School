@@ -2,7 +2,7 @@ $(function () {
 	
 	var cnt = 1;
 	var url = window.location.pathname;
-	alert(url);
+
 	switch(url){
 		case "/C:/Users/Pichau/Desktop/Gift%20Virtual%20School/front/baiadosancho.html":
 			$('#btn-d').click(function(){
