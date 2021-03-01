@@ -4,7 +4,7 @@ $(function () {
 	var url = window.location.pathname;
 
 	switch(url){
-		case "/C:/Users/Pichau/Desktop/Gift%20Virtual%20School/front/baiadosancho.html":
+		case "/gift/front/baiadosancho.html":
 			$('#btn-d').click(function(){
 				if(cnt == 3){
 					cnt = 1;
@@ -44,7 +44,7 @@ $(function () {
 			});
 			break;
 
-		case "/C:/Users/Pichau/Desktop/Gift%20Virtual%20School/front/carneiros.html":
+		case "/gift/front/carneiros.html":
 			$('#btn-d').click(function(){
 				if(cnt == 3){
 					cnt = 1;
@@ -84,6 +84,45 @@ $(function () {
 			});
 			break;
 
+		case "/gift/front/boipeba.html":
+			$('#btn-d').click(function(){
+				if(cnt == 3){
+					cnt = 1;
+				}else{
+					cnt++;
+				}
+				switch(cnt){
+				case 1:
+					$('#dsp-img').attr('src','imgs/bp1.jpg');
+					break;
+				case 2:
+					$('#dsp-img').attr('src','imgs/bp2.jpg');
+					break;
+				case 3:
+					$('#dsp-img').attr('src','imgs/bp3.png');
+					break;
+			}
+			});
+
+			$('#btn-e').click(function(){
+				if(cnt == 1){
+					cnt = 3;
+				}else{
+					cnt--;
+				}
+				switch(cnt){
+				case 1:
+					$('#dsp-img').attr('src','imgs/bp1.jpg');
+					break;
+				case 2:
+					$('#dsp-img').attr('src','imgs/bp2.jpg');
+					break;
+				case 3:
+					$('#dsp-img').attr('src','imgs/bp3.png');
+					break;
+			}
+			});
+			break;
 
 	}
 	
