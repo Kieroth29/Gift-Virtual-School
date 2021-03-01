@@ -1,29 +1,36 @@
 # Gift-Virtual-School
 Content from Gift Virtual School programming classes
 
-## calcvoid
+# C
+
+### calcvoid
 Calculator with *void* return functions
 
-## charv2
+### charv2
 Array concepts
 
-## empresas
+### empresas
 Pointers with *int* and *void* return functions
 
-## for
-*for* loop concepts
+### for
+"for" loop concepts
 
-## HelloWorld
+### HelloWorld
 Hello World in c
 
-## operadoresv2
+### operadoresv2
 "+=", "-=", "*=" and "/=" operators
 
-## qtdfuncionarios
+### qtdfuncionarios
 Pointers with *void* return functions
 
-## struct
+### struct
 Struct concepts
 
-## while
+### while
 *while* loop concepts
+
+# front
+
+### front-end
+Pages built with HTML/CSS, JavaScript and jQuery
