@@ -1,0 +1,18 @@
+body{
+	background-color: black;
+	color: white;
+}
+.botao-de-exemplo{
+	background-color: green;
+}
+#bola-f{
+	height: 100px;
+	width: 100px;
+}
+#bola-v{
+	height: 500px;
+	width: 500px;
+}
+.bola{
+	border-radius: 25px;	
+}
