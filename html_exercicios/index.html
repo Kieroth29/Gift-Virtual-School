@@ -2,6 +2,7 @@
     <head>
         <title>Minha página HTML</title>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body style="background-color: yellow">
@@ -69,6 +70,128 @@
             <li>Segundo item</li>
             <li>Terceiro item</li>
         </ol>
+
+        <ul>
+            <li>Primeiro</li>
+            <li>
+                Segundo
+                <ul type="circle">
+                    <li>Segundo Uno</li>
+                    <li>Segundo Dos</li>
+                </ul>
+            </li>
+            <li>Terceiro</li>
+        </ul>
+
+        <p>Los temas del número de este mes de nuestra revista son:</p>
+        
+        <ul type="bullet">
+            <li>Un nuevo internet: IPv6</li>
+            <li>El WWW cobra vida: ha llegado el HTML dinámico</li>
+            <li>
+                Qué ordenador comprarse:
+                <ol type="1">
+                    <li>
+                        CPU rápida. Con las siguientes características:
+                        <ul type="square">
+                            <li>Procesador Pentium 166</li>
+                            <li>CD-ROM 8x</li>
+                            <li>Tarjeta de sonido 16 bits</li>
+                            <li>Tarjeta de vídeo con 2 Mb</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Impresora a color de buena definición
+                        <ul type="square">
+                            <li>Teste</li>
+                        </ul>
+                    </li>
+                    <li>Altavoces y cámara de video</li>
+                    <li>Escaner color</li>
+                    <li>Módem de velocidad 28K o superior</li>
+                </ol>
+            </li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>Dias da semana por extenso</th>
+                <th>Por numeral</th>
+            </tr>
+
+            <tr>
+                <td>Segunda</td>
+                <td>2ª</td>
+            </tr>
+
+            <tr>
+                <td>Terça</td>
+                <td>3ª</td>
+            </tr>
+
+            <tr>
+                <td>Quarta</td>
+                <td>4ª</td>
+            </tr>
+        </table>
+
+        <table id="tabela1" class="tabela-pais">
+
+            <tr>
+                <th>País</th>
+                <th>População</th>
+            </tr>
+
+            <tr>
+                <td>Brasil</td>
+                <td>211 milhões</td>
+            </tr>
+
+            <tr>
+                <td>Argentina</td>
+                <td>45 milhões</td>
+            </tr>
+
+        </table>
+
+        <table id="tabela2" class="tabela-secundaria tabela-pais">
+            <tr>
+                <th>País</th>
+                <th>População</th>
+            </tr>
+
+            <tr>
+                <td>Brasil</td>
+                <td>211 milhões</td>
+            </tr>
+
+            <tr>
+                <td>Argentina</td>
+                <td>45 milhões</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Tamanho</th>
+                <th>Código</th>
+            </tr>
+
+            <tr>
+                <td>Pequeno</td>
+                <td>P</td>
+            </tr>
+
+            <tr>
+                <td>Médio</td>
+                <td>M</td>
+            </tr>
+
+            <tr>
+                <td>Grande</td>
+                <td>G</td>
+            </tr>
+        </table>
 
     </body>
 </html5>
